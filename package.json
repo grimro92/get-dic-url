@@ -1,5 +1,5 @@
 {
-  "name": "fujimon-homepage",
+  "name": "get-dic-url",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,7 +12,9 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "@mdi/font": "^7.4.47",
+    "vue": "^3.5.13",
+    "vuetify": "^3.8.0-beta.0"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.1",

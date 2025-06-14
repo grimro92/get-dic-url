@@ -15,4 +15,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  // --- ここから追加 ---
+  server: {
+    host: true, // これを追加することで、ローカルIPアドレスでもアクセス可能になります
+    port: 5173, // デフォルトポート。必要であれば変更可能
+  }
+  // --- ここまで追加 ---
 })
